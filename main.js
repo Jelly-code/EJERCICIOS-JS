@@ -1,18 +1,13 @@
-// EJERCICIO 1
+// EJERCICIO 1 🍒
 
 const arrayDeBandas=["Pink Floyd", "Nirvana", "ac/dc", "Aerosmith", "Pearl jam", "Audioslave"]
-
 const primerBanda = arrayDeBandas[0]
-
 const tercerBanda = arrayDeBandas[2]
-
 const sextaBanda = arrayDeBandas[5]
 
-console.log(`El nombre de la primera banda es ${primerBanda}`)
-console.log(`El nombre de la tercera banda es ${tercerBanda}`)
-console.log(`El nombre de la sexta banda es ${sextaBanda}`)
+console.log(`El nombre de la primera banda es ${primerBanda}, el nombre de la tercera banda es ${tercerBanda} y el nombre de la cuarda banda es ${sextaBanda}`)
 
-// EJERCICIO 2
+// EJERCICIO 2 🍒
 
 const notas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -20,7 +15,6 @@ const sumarNotas = (notas) => {
     let total = 0
     for (let i = 0; i < notas.length; i++) {
         total += notas[i];
-
     }
     return total
 }
@@ -34,7 +28,7 @@ const calcularPromedio = (notas) => {
 
 console.log(calcularPromedio(notas))
 
-// EJERCICIO 3
+// EJERCICIO 3 🍒
 
 const playlist = ["Concrete and Gold", "The Line", "Sunday Rain", "Happy Ever After (Zero Hour)", "Arrows", "Dirty Water", "La Dee Da", "The Sky Is a Neighborhood", "Make It Right", "Run", "T-Shirt"];
 
@@ -55,7 +49,7 @@ const mostrarPlaylistAlReves = (playlist) => {
 
 mostrarPlaylistAlReves(playlist)
 
-// EJERCICIO 4
+// EJERCICIO 4 🍒
 
 const items = ['🍉', '🍐', '🍌', '🍇', '🍓', '🍒']
 
@@ -75,7 +69,7 @@ const obtenerFrutaAlAzar = (items) => {
 
 console.log(obtenerFrutaAlAzar(items))
 
-// EJERCICIO 5
+// EJERCICIO 5 🍒
 
 let listaDeFrutas = []
 
@@ -85,7 +79,7 @@ listaDeFrutas.push(obtenerFrutaAlAzar());
 listaDeFrutas.push(obtenerFrutaAlAzar());
 listaDeFrutas.push(obtenerFrutaAlAzar());
 
-// EJERCICIO 6
+// EJERCICIO 6 🍒
 
 let listaDeFrutas = []
 for ( i = 0; i <= 5; i++) {
